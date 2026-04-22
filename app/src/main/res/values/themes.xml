@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.ToDoApp" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Full-screen theme: no ActionBar, edge-to-edge -->
+    <style name="Theme.ToDoApp" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
 </resources>
